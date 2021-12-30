@@ -140,11 +140,11 @@ button:active{
 
 /* changed height of the image and moved it to the right */
 .model{
-    height: 500px; 
+    height: 400px; 
     position: absolute;
     bottom: 0px;
     left: 80%;
-    transform: translateX(-70%);
+    transform: translateX(-65%);
 }
 
 
