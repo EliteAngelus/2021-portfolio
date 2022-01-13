@@ -173,7 +173,7 @@ button:active{
 
 .about-text p:nth-child(1){
     color: #403e3e;
-    font-family: myriad pro;
+    font-family: 'Quicksand',
     font-weight: bold;
     font-size: 23px;
     border-bottom: 2px solid #0b0b0b;
@@ -183,7 +183,7 @@ button:active{
 
 .about-text p:nth-child(2) {
     color:slateblue;
-    font-family: myriad pro;
+    font-family: 'Quicksand',
     font-weight: bold;
     font-size: 15px;
     line-height: 5px;
@@ -268,6 +268,9 @@ ul{
    padding: 2rem;
 }
 
+a{
+    padding: 8px;
+}
 .about-text button{
     width: 120px;
     height: 40px;
@@ -292,8 +295,7 @@ font-family: 'Quicksand',sans-serif;
 
 
 .services-text p:nth-child(2){
-    font-family: 'Mukta',
-    sans-serif;
+        font-family: 'Quicksand',
     font-weight: bold;
     color: #3e3d3d; 
     font-size: 15px;
@@ -302,8 +304,6 @@ font-family: 'Quicksand',sans-serif;
 
 
 .services-text p:nth-child(3) {
-font-family: 'Mukta',
-sans-serif;
 color: #7e7d7d;
 }
 
@@ -358,7 +358,7 @@ color: #7e7d7d;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: calibri;
+    font-family: 'Quicksand',
     font-weight: bold;
 }
 
@@ -366,7 +366,7 @@ color: #7e7d7d;
 .box-2 p:nth-child(2),
 .box-3 p:nth-child(2){
     color:#FFFFFF;
-    font-family:calibri;
+    font-family: 'Quicksand',
     font-size:23px;
     line-height: 0px;
 }
@@ -402,21 +402,22 @@ color: #7e7d7d;
     flex-direction: column;
     justify-content: center;
     align-items:center;     
+    box-shadow: 2px 2px #cbcbcb;
 }
 
 .contact-me p{
     color:#FFFFFF;
     font-size: 30px;
-    font-family: calibri;
+    font-family: 'Quicksand';
     font-weight: bold;
     border-bottom: 2px solid #FFFFFF;
 
 }
 
 footer{
-    height: 300px;
+    height: 100px;
     display: flex; 
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center; 
 
@@ -425,7 +426,6 @@ footer{
 footer p{
     font-family: calibri;
     font-size: 25px;
-
 }
  
 footer p:nth-child(1){
@@ -516,8 +516,8 @@ label{
 }
 
 .contact-container{
-    width: 90%;
-    max-width: 510px;
+   width: min(90%, 500px);
+   height: min(90%, 1000px);
     margin: 0 auto; 
     padding: 20px;
     box-shadow: 0px 0px 20px 00000010;
