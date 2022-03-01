@@ -3,7 +3,7 @@
 🔥 PORTFOLIO WEB PAGE 🔥
 
 
-# FRAMEWORKS AND LANGUAGES USED
+# Framework and languages
 
 
 - [x] HTML
