@@ -1,1 +1,10 @@
-# 2021-portfolio
+# PORTFOLIO 2022 💻
+
+🔥 PORTFOLIO WEB PAGE 🔥
+
+
+# FRAMEWORKS AND LANGUAGES USED
+
+
+- [x] HTML
+- [x] CSS
